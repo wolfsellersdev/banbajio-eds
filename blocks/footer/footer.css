@@ -54,9 +54,11 @@ footer .footer p {
 @media (width >= 900px) {
   .footer-wrapper .footer.block .default-content-wrapper > ul >li {
     font-size: var(--body-font-nav-banner);
+    box-sizing: border-box;
     font-weight: 600;
     max-width: 451px;
-    width: 100%;
+    padding: 0 15px;
+    width: 25%;
   }
   .footer-wrapper .footer.block .default-content-wrapper ul li ul li {
     font-size: var(--body-font-medium);
