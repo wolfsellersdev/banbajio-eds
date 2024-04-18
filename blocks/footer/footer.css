@@ -4,6 +4,11 @@ footer {
   font-size: var(--body-font-size-s);
 }
 
+.footer-wrapper {
+  padding: 20px 0;
+  background: var(--primary-color-purple);
+}
+
 footer .footer {
   max-width: 1200px;
   margin: auto;
@@ -11,4 +16,93 @@ footer .footer {
 
 footer .footer p {
   margin: 0;
+}
+
+.footer-wrapper .section > div {
+  max-width: none;
+}
+
+.footer-wrapper .footer.block {
+  max-width: none;
+}
+
+.footer-wrapper .footer.block .default-content-wrapper > ul {
+  display: flex;
+  list-style: none;
+}
+
+.footer-wrapper .footer.block .default-content-wrapper > ul li {
+  color: var(--color-white);
+}
+
+.footer-wrapper .footer.block .default-content-wrapper > ul li ul li {
+  color: var(--color-lila);
+}
+
+.footer-wrapper .footer.block .default-content-wrapper ul {
+  padding: 0;
+  margin: 0;
+}
+
+.footer-wrapper .footer.block .default-content-wrapper ul li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer.block .section:nth-child(2) {
+  background: var(--color-white);
+}
+
+.footer.block .section:nth-child(2) .default-content-wrapper {
+  display: flex;
+}
+
+.footer.block .section:nth-child(2) .default-content-wrapper ul,
+.footer.block .section:nth-child(2) .default-content-wrapper p {
+  flex: 1;
+}
+
+.footer.block .section:nth-child(2) .default-content-wrapper > ul {
+  padding: 20px 0;
+}
+
+.footer.block .section:nth-child(2) .default-content-wrapper p {
+  display: flex;
+  padding-right: 30px;
+  align-items: flex-end;
+  box-sizing: border-box;
+  flex-direction: column-reverse;
+}
+
+.footer.block .section:nth-child(2) .default-content-wrapper picture:first-child img {
+  height: initial;
+  max-width: 379px;
+  width: 100%;
+}
+
+.footer.block .section:nth-child(2) .default-content-wrapper picture {
+  max-width: 451px;
+  width: 100%;
+}
+
+.footer.block .section:nth-child(2) .default-content-wrapper > ul li {
+  width: 50%;
+}
+
+@media (width >= 900px) {
+  .footer-wrapper .footer.block .default-content-wrapper > ul >li {
+    font-size: var(--body-font-nav-banner);
+    box-sizing: border-box;
+    font-weight: 600;
+    max-width: 451px;
+    padding: 0 15px;
+    width: 25%;
+  }
+  .footer-wrapper .footer.block .default-content-wrapper ul li ul li {
+    font-size: var(--body-font-medium);
+    line-height: normal;
+    font-weight: 400;
+    margin: 4px 0;
+  }
 }
