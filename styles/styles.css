@@ -55,6 +55,7 @@
   --heading-font-size-xs: 18px;
   --heading-font-title-banners: 32px;            /* Principal heading banner */
   --heading-font-sub-title-banners: 32px;        /* Sendary heading banner */
+  --heading-footer-titles: 21px;                 /* Footer white titles */
 
   /* nav height */
   --nav-height: 64px;
