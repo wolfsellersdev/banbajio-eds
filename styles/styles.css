@@ -12,12 +12,23 @@
 
 :root {
   /* colors */
-  --link-color: #035fe6;
-  --link-hover-color: #136ff6;
+  --link-color: #c89fd9;
+  --link-hover-color: #573b95;
   --background-color: white;
   --light-color: #eee;
   --dark-color: #ccc;
   --text-color: black;
+  --primary-color-purple: #573b95;            /* BkgFooter */
+    --colorpurple-dark: #422d70;                /* HoverButton Banner with image */
+    --color-black: #000000;
+    --color-white: #ffffff;
+    --color-lila: #c89fd9;                      /* FotoerLinks */
+    --color-gray-light: #c8c8c8;                /* Inputs gray light */
+    --color-gray-drak: #d9d9d9;                 /* Hover gray nav ul li */
+    --color-gray-dark-border: #474747;          /* Border-bottom nav without opacity 0.4 */
+    --color-gray-ultradark: #2a2a2a;            /* Bkg nav location contact follows blog prmos */
+    --color-lavanda: #977bd7;                   /* Bancalinea hover aside right */
+
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback;
@@ -28,6 +39,11 @@
   --body-font-size-m: 22px;
   --body-font-size-s: 18px;
   --body-font-size-xs: 16px;
+  --body-font-asides-navs: 16px;                   /* Navigation fontSize and line Bank banca en linea */
+  --body-font-medium: 18px;                        /* Navigation button with banner and footer */
+  --body-font-nav-banner: 24px;                    /* TitleBanner with image */
+  --body-font-card-information-title: 32px;        /* TitleBanner second row tarjeta   banca internacional */
+
 
   /* heading sizes */
   --heading-font-size-xxl: 48px;
@@ -36,9 +52,12 @@
   --heading-font-size-m: 24px;
   --heading-font-size-s: 20px;
   --heading-font-size-xs: 18px;
+  --heading-font-title-banners: 32px;            /* Principal heading banner */
+  --heading-font-sub-title-banners: 32px;        /* Sendary heading banner */
 
   /* nav height */
   --nav-height: 64px;
+  --nav-width: 280px;                            /* screen and (min-device-width: 1441px) */
 }
 
 @font-face {
@@ -56,6 +75,8 @@
     --heading-font-size-m: 30px;
     --heading-font-size-s: 24px;
     --heading-font-size-xs: 22px;
+    --heading-font-title-banners: 90px;            /* Principal heading banner */
+    --heading-font-sub-title-banners: 40px;        /* Sendary heading banner */
   }
 }
 
