@@ -20,8 +20,8 @@
   --text-color: black;
   --primary-color-purple: #573b95;            /* BkgFooter */
     --colorpurple-dark: #422d70;                /* HoverButton Banner with image */
-    --color-black: #000000;
-    --color-white: #ffffff;
+    --color-black: #000;
+    --color-white: #fff;
     --color-lila: #c89fd9;                      /* FotoerLinks */
     --color-gray-light: #c8c8c8;                /* Inputs gray light */
     --color-gray-drak: #d9d9d9;                 /* Hover gray nav ul li */
