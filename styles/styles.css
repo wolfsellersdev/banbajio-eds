@@ -42,9 +42,9 @@
   --body-font-asides-navs: 16px;                   /* Navigation fontSize and line Bank banca en linea */
   --body-font-medium: 18px;                        /* Navigation button with banner and footer */
   --body-font-nav-banner: 21px;                    /* TitleFooter */
-  --body-font-nav-banner: 24px;                    /* TitleBanner with image */
+  --body-font-nav-banner-second: 24px;                    /* TitleBanner with image */
   --body-font-card-information-title: 32px;        /* TitleBanner second row tarjeta   banca internacional */
-
+  --body-font-footer: 20px;                        /* Title footer */
 
   /* heading sizes */
   --heading-font-size-xxl: 48px;
