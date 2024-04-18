@@ -41,6 +41,7 @@
   --body-font-size-xs: 16px;
   --body-font-asides-navs: 16px;                   /* Navigation fontSize and line Bank banca en linea */
   --body-font-medium: 18px;                        /* Navigation button with banner and footer */
+  --body-font-nav-banner: 21px;                    /* TitleFooter */
   --body-font-nav-banner: 24px;                    /* TitleBanner with image */
   --body-font-card-information-title: 32px;        /* TitleBanner second row tarjeta   banca internacional */
 
@@ -77,6 +78,9 @@
     --heading-font-size-xs: 22px;
     --heading-font-title-banners: 90px;            /* Principal heading banner */
     --heading-font-sub-title-banners: 40px;        /* Sendary heading banner */
+  }
+  body {
+    padding-left: 280px;
   }
 }
 
