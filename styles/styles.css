@@ -30,6 +30,8 @@
     --color-lavanda: #977bd7;                   /* Bancalinea hover aside right */
     --color-dark-purple-titles: #5c27ac;
     --color-black-purple: #3a3a57;
+    --color-input-border: #E1E1E1;
+    --color-input-search: #949494;
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback;
@@ -41,6 +43,7 @@
   --body-font-size-s: 18px;
   --body-font-size-xs: 16px;
   --body-font-asides-navs: 16px;                   /* Navigation fontSize and line Bank banca en linea */
+  --body-font-search: 17px;                   /* Navigation fontSize and line Bank banca en linea */
   --body-font-medium: 18px;                        /* Navigation button with banner and footer */
   --body-font-nav-banner: 21px;                    /* TitleFooter */
   --body-font-nav-banner-second: 24px;                    /* TitleBanner with image */
