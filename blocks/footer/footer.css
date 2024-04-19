@@ -59,8 +59,21 @@ footer .footer p {
   margin-bottom: 15px;
 }
 
+.footer-wrapper .section > .default-content-wrapper > p:first-child {
+  position: absolute;
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  left: 65px;
+  gap: 10px;
+}
+
 .footer.block .section:nth-child(2) {
   background: var(--color-white);
+}
+
+.footer-wrapper .section .default-content-wrapper {
+  position: relative;
 }
 
 .footer.block .section:nth-child(2) .default-content-wrapper {
@@ -82,19 +95,6 @@ footer .footer p {
   align-items: flex-end;
   box-sizing: border-box;
   flex-direction: column-reverse;
-}
-
-.footer-wrapper .section .default-content-wrapper {
-  position: relative;
-}
-
-.footer-wrapper .section > .default-content-wrapper > p:first-child {
-  position: absolute;
-  display: inline-flex;
-  align-items: center;
-  text-align: center;
-  left: 65px;
-  gap: 10px;
 }
 
 .footer-wrapper .section > .default-content-wrapper > p:first-child .icon {
