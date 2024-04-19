@@ -31,3 +31,72 @@
     order: unset;
   }
 }
+
+.columns.cards-pyme-bank > div {
+  padding: 60px 50px;
+}
+
+.columns.cards-pyme-bank > div div {
+  position: relative;
+}
+
+.columns.cards-pyme-bank > div div h2,
+.columns.cards-pyme-bank > div div .button-container {
+  position: absolute;
+  margin: 0;
+}
+
+.columns.cards-pyme-bank > div div p {
+  margin: 0;
+}
+
+.columns.cards-pyme-bank > div #tarjeta-pyme-negocios {
+  top: 40px;
+  width: 100%;
+  text-align: center;
+  color: var(--color-dark-purple-titles);
+  font-size: var(--body-font-card-information-title);
+}
+
+.columns.cards-pyme-bank.block.columns-2-cols > div div:last-child #banca-internacional,
+.columns.cards-pyme-bank.block.columns-2-cols > div div:last-child #experiencia-internacional-con-trato-personal,
+.columns.cards-pyme-bank.block.columns-2-cols > div div:last-child .button-container {
+  background: var(--color-black-purple);
+  max-width: 406px;
+  opacity: 0.85;
+  width: 100%;
+  left: 20px;
+}
+
+.columns.cards-pyme-bank.block.columns-2-cols > div div:last-child #banca-internacional,
+.columns.cards-pyme-bank.block.columns-2-cols > div div:last-child #experiencia-internacional-con-trato-personal {
+  color: var(--color-white);
+  font-size: var(--body-font-card-information-title);
+  box-sizing: border-box;
+  padding: 0 20px;
+}
+
+.columns.cards-pyme-bank.block.columns-2-cols > div div:last-child #experiencia-internacional-con-trato-personal {
+  padding-bottom: 20px;
+  font-weight: 300;
+  top: 100px;
+}
+
+.columns.cards-pyme-bank.block.columns-2-cols > div div:last-child #banca-internacional {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  top: 20px;
+}
+
+.columns.cards-pyme-bank.block.columns-2-cols > div div:last-child .button-container {
+  top: 200px;
+}
+
+.columns.cards-pyme-bank.block.columns-2-cols > div div:last-child .button-container .button {
+  margin: 0 20px 20px;
+  width: calc(100% - 39px);
+  color: var(--link-hover-color);
+  background: var(--color-white);
+  line-height: 100%;
+  font-weight: 600;
+}
