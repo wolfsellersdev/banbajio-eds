@@ -29,7 +29,7 @@
     --color-gray-ultradark: #2a2a2a;            /* Bkg nav location contact follows blog prmos */
     --color-lavanda: #977bd7;                   /* Bancalinea hover aside right */
     --color-dark-purple-titles: #5c27ac;
-
+    --color-black-purple: #3a3a57;
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback;
@@ -46,6 +46,7 @@
   --body-font-nav-banner-second: 24px;                    /* TitleBanner with image */
   --body-font-card-information-title: 32px;        /* TitleBanner second row tarjeta   banca internacional */
   --body-font-footer: 20px;                        /* Title footer */
+  --body-font-form-title: 35px;                    /* Title form */
 
   /* heading sizes */
   --heading-font-size-xxl: 48px;
@@ -166,18 +167,20 @@ a.button:any-link, button {
   box-sizing: border-box;
   text-decoration: none;
   border: 2px solid transparent;
-  padding: 5px 30px;
+  padding: 18px 20px;
   text-align: center;
   font-style: normal;
   font-weight: 600;
   cursor: pointer;
+  border-radius: 5px;
   color: var(--background-color);
   background-color: var(--link-color);
   margin: 16px 0;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  border-radius: 30px;
+  line-height: 1%;
+  font-size: var(--body-font-size-xs);
 }
 
 a.button:hover, a.button:focus, button:hover, button:focus  {
