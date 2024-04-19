@@ -260,12 +260,10 @@ header nav .nav-sections ul > li > ul > li {
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li[aria-expanded="true"] > ul {
-    display: block;
     position: absolute;
     left: 250px;
     margin-top: 12px;
     padding: 45px 10px;
-    top: 0;
     background-color: var(--color-gray-ultradark);
     white-space: initial;
     display: grid;
@@ -274,13 +272,19 @@ header nav .nav-sections ul > li > ul > li {
     max-width: 700px;
     width: 100%;
     top: -53px;
+    gap: 0;
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li ul li {
-    background: url(../../icons/nav-bbgovernment.png);
+    background: url('../../icons/nav-bbgovernment.png');
     background-repeat: no-repeat;
     color: var(--color-white);
     font-weight: 600;
+  }
+
+  header nav .nav-sections .default-content-wrapper > ul > li > ul > li {
+    padding: 15px 25px 15px 45px;
+    line-height: normal;
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li ul li:first-child {
@@ -319,10 +323,6 @@ header nav .nav-sections ul > li > ul > li {
     background-position: 0 0;
   }
 
-  header nav .nav-sections .default-content-wrapper > ul > li ul li:nth-child(9) {
-    background-position: 0 0;
-  }
-
   header nav .nav-sections .default-content-wrapper > ul > li > ul::before {
     content: none;
     position: absolute;
@@ -333,11 +333,6 @@ header nav .nav-sections ul > li > ul > li {
     border-left: 8px solid transparent;
     border-right: 8px solid transparent;
     border-bottom: 8px solid var(--light-color);
-  }
-
-  header nav .nav-sections .default-content-wrapper > ul > li > ul > li {
-    padding: 15px 25px 15px 45px;
-    line-height: normal;
   }
 }
 
