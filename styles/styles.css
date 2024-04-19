@@ -81,6 +81,7 @@
     --heading-font-title-banners: 90px;            /* Principal heading banner */
     --heading-font-sub-title-banners: 40px;        /* Sendary heading banner */
   }
+  
   body {
     padding-left: 280px;
   }
