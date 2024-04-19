@@ -35,9 +35,6 @@ footer .footer p {
   color: var(--color-white);
 }
 
-.footer-wrapper .footer.block .default-content-wrapper > ul li ul li {
-  color: var(--color-lila);
-}
 
 .footer-wrapper .footer.block .default-content-wrapper ul {
   padding: 0;
@@ -48,6 +45,10 @@ footer .footer p {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+.footer-wrapper .footer.block .default-content-wrapper > ul li ul li {
+  color: var(--color-lila);
 }
 
 .footer.block .section:nth-child(2) {
@@ -99,6 +100,7 @@ footer .footer p {
     padding: 0 15px;
     width: 25%;
   }
+  
   .footer-wrapper .footer.block .default-content-wrapper ul li ul li {
     font-size: var(--body-font-medium);
     line-height: normal;
