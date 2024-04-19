@@ -263,16 +263,68 @@ header nav .nav-sections ul > li > ul > li {
     display: block;
     position: absolute;
     left: 250px;
-    width: 200px;
     margin-top: 12px;
-    padding: 1em;
+    padding: 45px 10px;
     top: 0;
-    background-color: var(--light-color);
+    background-color: var(--color-gray-ultradark);
     white-space: initial;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    min-width: 700px;
+    max-width: 700px;
+    width: 100%;
+    top: -53px;
+  }
+
+  header nav .nav-sections .default-content-wrapper > ul > li ul li {
+    background: url(../../icons/nav-bbgovernment.png);
+    background-repeat: no-repeat;
+    color: var(--color-white);
+    font-weight: 600;
+  }
+
+  header nav .nav-sections .default-content-wrapper > ul > li ul li:first-child {
+    background-position: 0 -360px;
+  }
+
+  header nav .nav-sections .default-content-wrapper > ul > li ul li:nth-child(2) {
+    background-position: 0 -315px;
+  }
+
+  header nav .nav-sections .default-content-wrapper > ul > li ul li:nth-child(3) {
+    background-position: 0 -158px;
+  }
+
+  header nav .nav-sections .default-content-wrapper > ul > li ul li:nth-child(4) {
+    background-position: 0 -103px;
+  }
+
+  header nav .nav-sections .default-content-wrapper > ul > li ul li:nth-child(5) {
+    background-position: 0 0;
+  }
+
+  header nav .nav-sections .default-content-wrapper > ul > li ul li:nth-child(6) {
+    background-position: 0 -263px;
+  }
+
+  header nav .nav-sections .default-content-wrapper > ul > li ul li:nth-child(7) {
+    background-position: 0 -207px;
+  }
+
+  header nav .nav-sections .default-content-wrapper > ul > li ul li:nth-child(8) {
+    background-position: 0 -407px;
+  }
+
+  header nav .nav-sections .default-content-wrapper > ul > li ul li:nth-child(9) {
+    background-position: 0 0;
+  }
+
+  header nav .nav-sections .default-content-wrapper > ul > li ul li:nth-child(9) {
+    background-position: 0 0;
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li > ul::before {
-    content: '';
+    content: none;
     position: absolute;
     top: -8px;
     left: 8px;
@@ -284,7 +336,8 @@ header nav .nav-sections ul > li > ul > li {
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li > ul > li {
-    padding: 8px 0;
+    padding: 15px 25px 15px 45px;
+    line-height: normal;
   }
 }
 
