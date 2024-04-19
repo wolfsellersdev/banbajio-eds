@@ -84,6 +84,32 @@ footer .footer p {
   flex-direction: column-reverse;
 }
 
+.footer-wrapper .section .default-content-wrapper {
+  position: relative;
+}
+
+.footer-wrapper .section > .default-content-wrapper > p:first-child {
+  position: absolute;
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.footer-wrapper .section > .default-content-wrapper > p:first-child .icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  color: var(--color-lila);
+  border: 2px solid var(--color-lila);
+}
+
+.footer-wrapper .section > .default-content-wrapper > p:first-child .icon img {
+  max-width: 24px;
+  filter: invert(1);
+  opacity: 0.7;
+}
+
 .footer.block .section:nth-child(2) .default-content-wrapper picture:first-child img {
   height: initial;
   max-width: 379px;
