@@ -31,3 +31,28 @@
     order: unset;
   }
 }
+
+.columns.cards-pyme-bank > div {
+  padding: 60px 50px;
+}
+
+.columns.cards-pyme-bank > div div {
+  position: relative;
+}
+
+.columns.cards-pyme-bank > div div h2,
+.columns.cards-pyme-bank > div div .button-container {
+  position: absolute;
+  margin: 0;
+}
+
+.columns.cards-pyme-bank > div div p {
+  margin: 0;
+}
+
+.columns.cards-pyme-bank > div #tarjeta-pyme-negocios {
+  width: 100%;
+  text-align: center;
+  color: var(--color-dark-purple-titles);
+  font-size: var(--body-font-card-information-title);
+}
