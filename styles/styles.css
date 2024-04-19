@@ -28,6 +28,7 @@
     --color-gray-dark-border: #474747;          /* Border-bottom nav without opacity 0.4 */
     --color-gray-ultradark: #2a2a2a;            /* Bkg nav location contact follows blog prmos */
     --color-lavanda: #977bd7;                   /* Bancalinea hover aside right */
+    --color-dark-purple-titles: #5c27ac;
 
 
   /* fonts */
@@ -218,13 +219,12 @@ main .section {
 
 @media (width >= 600px) {
   main .section {
-    padding: 64px 32px;
+    padding: 64px 0;
   }
 }
 
 @media (width >= 900px) {
   .section > div {
-    max-width: 1200px;
     margin: auto;
   }
 }
