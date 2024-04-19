@@ -26,6 +26,17 @@ footer .footer p {
   max-width: none;
 }
 
+.footer-wrapper .footer.block .default-content-wrapper ul {
+  padding: 0;
+  margin: 0;
+}
+
+.footer-wrapper .footer.block .default-content-wrapper ul li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 .footer-wrapper .footer.block .default-content-wrapper > ul {
   display: flex;
   list-style: none;
@@ -42,17 +53,6 @@ footer .footer p {
 
 .footer-wrapper .footer.block .default-content-wrapper > ul li ul li {
   color: var(--color-lila);
-}
-
-.footer-wrapper .footer.block .default-content-wrapper ul {
-  padding: 0;
-  margin: 0;
-}
-
-.footer-wrapper .footer.block .default-content-wrapper ul li {
-  list-style: none;
-  padding: 0;
-  margin: 0;
 }
 
 .footer.block .section:first-child {
