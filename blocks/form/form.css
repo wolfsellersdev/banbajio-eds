@@ -147,12 +147,6 @@
       width: 100%;
     }
   
-    .form-wrapper .form.block {
-      max-width: 851px;
-      display: flex;
-      width: 100%;
-    }
-  
     .form-wrapper .form.block form {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -161,12 +155,14 @@
     .form-wrapper .form.block form .field-wrapper {
       padding: 0 15px;
     }
+
     .form-wrapper .form.block form .field-wrapper label {
       font-size: var(--body-font-form-title);
       text-shadow: 0 2px 0 rgba(0 0 0 / 20%);
       color: var(--color-white);
       margin-bottom: 10px;
     }
+
     .form-wrapper .form.block form .field-wrapper select {
       border: 1px solid rgba(71 71 71 / 50%);
       color: var(--color-gray-light);
