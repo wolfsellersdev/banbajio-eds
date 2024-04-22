@@ -323,6 +323,7 @@ header nav .nav-sections ul > li > ul > li {
   header nav .nav-sections .default-content-wrapper > ul > li[aria-expanded="false"]:not(.nav-drop)::after {
     border-bottom: 1px solid var(--color-white);
     position: relative;
+    font-weight: 400;
     display: block;
     bottom: -14px;
     content: '';
