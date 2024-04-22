@@ -49,6 +49,7 @@ footer .footer p {
 .footer-wrapper .footer.block .default-content-wrapper > ul li ul {
   border-left: 2px solid var(--color-lila);
   padding-left: 20px;
+  margin-top: 10px;
 }
 
 .footer-wrapper .footer.block .default-content-wrapper > ul li ul li {
@@ -149,6 +150,10 @@ footer .footer p {
   color: var(--color-white);
 }
 
+.footer.block .section:nth-child(3) p:nth-child(3) {
+  font-size: var(--body-font-footer-legals);
+}
+
 .footer.block .section:nth-child(3) p:nth-child(2) {
   font-size: var(--body-font-footer);
   font-weight: 600;
@@ -168,7 +173,7 @@ footer .footer p {
 
 @media (width >= 900px) {
   .footer-wrapper .footer.block .default-content-wrapper > ul >li {
-    font-size: var(--heading-footer-titles);
+    font-size: var(--body-font-size-xs);
     box-sizing: border-box;
     font-weight: 600;
     max-width: 451px;

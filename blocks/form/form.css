@@ -150,17 +150,24 @@
     .form-wrapper .form.block form {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
+      padding-right: 27px;
     }
   
     .form-wrapper .form.block form .field-wrapper {
       padding: 0 15px;
     }
 
+    .form-wrapper .form.block form .field-wrapper:nth-child(3),
+    .form-wrapper .form.block form .field-wrapper:nth-child(4) {
+      padding-top: 20px;
+    }
+
     .form-wrapper .form.block form .field-wrapper label {
-      font-size: var(--body-font-form-title);
+      font-size: var(--body-font-footer);
       text-shadow: 0 2px 0 rgba(0 0 0 / 20%);
       color: var(--color-white);
       margin-bottom: 10px;
+      font-weight: 600;
     }
 
     .form-wrapper .form.block form .field-wrapper select {
